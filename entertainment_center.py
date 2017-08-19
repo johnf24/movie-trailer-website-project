@@ -1,5 +1,5 @@
 import media
-import fresh_tomatoes
+import index
 
 
 # Movie instances
@@ -42,4 +42,4 @@ movies = [thematrix, hackers, wargames, antitrust, thenet, transcendence]
 
 # Open movies function
 
-fresh_tomatoes.open_movies_page(movies)
+index.open_movies_page(movies)
