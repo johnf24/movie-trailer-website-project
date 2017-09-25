@@ -2,7 +2,9 @@ import webbrowser
 
 
 class Movie():
+    """This object creates the movie class."""
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+        """init method that instantiates the movie class."""
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image

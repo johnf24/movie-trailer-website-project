@@ -40,6 +40,6 @@ transcendence = media.Movie("Transcendence",
 movies = [thematrix, hackers, wargames, antitrust, thenet, transcendence]
 
 
-# Open movies function
+# This call opens the movies function.
 
 index.open_movies_page(movies)
